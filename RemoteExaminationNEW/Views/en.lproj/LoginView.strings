@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; configuration.title = "Нет аккаунта?"; ObjectID = "5Ry-gv-zAO"; */
+"5Ry-gv-zAO.configuration.title" = "Нет аккаунта?";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5Ry-gv-zAO"; */
+"5Ry-gv-zAO.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Электронная почта"; ObjectID = "XxB-xp-Vp3"; */
+"XxB-xp-Vp3.placeholder" = "Электронная почта";
+
+/* Class = "UIButton"; configuration.title = "ВОЙТИ"; ObjectID = "qfX-aF-mZn"; */
+"qfX-aF-mZn.configuration.title" = "ВОЙТИ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qfX-aF-mZn"; */
+"qfX-aF-mZn.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Пароль"; ObjectID = "wJu-MX-jmT"; */
+"wJu-MX-jmT.placeholder" = "Пароль";
