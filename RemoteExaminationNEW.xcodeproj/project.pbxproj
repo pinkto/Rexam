@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D112D47C2819B66B00FF34BC /* ExaminationTicketViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D112D47B2819B66B00FF34BC /* ExaminationTicketViewCell.swift */; };
+		D140AD16283B4D0C00417416 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140AD15283B4D0C00417416 /* UIViewControllerExt.swift */; };
+		D140AD18283B4E1D00417416 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140AD17283B4E1D00417416 /* StringExt.swift */; };
+		D14B3FF92818F4240029C444 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14B3FF82818F4240029C444 /* MainScreenViewController.swift */; };
+		D14B3FFD2818F5650029C444 /* ExamViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14B3FFC2818F5650029C444 /* ExamViewCell.xib */; };
+		D14B3FFF2818F6A10029C444 /* ExamViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14B3FFE2818F6A10029C444 /* ExamViewCell.swift */; };
+		D14B40052819591F0029C444 /* ExaminationTicketView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14B40042819591F0029C444 /* ExaminationTicketView.xib */; };
+		D14B40072819593F0029C444 /* ExaminationTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14B40062819593F0029C444 /* ExaminationTicket.swift */; };
+		D14B400928195C1C0029C444 /* ExaminationTicketViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14B400828195C1C0029C444 /* ExaminationTicketViewCell.xib */; };
+		D14B400B281979170029C444 /* AssessmentStatus.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14B400A281979170029C444 /* AssessmentStatus.xib */; };
+		D14B400E2819981B0029C444 /* AnswerToQuestionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14B400D2819981B0029C444 /* AnswerToQuestionView.xib */; };
+		D14B401128199E040029C444 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = D14B401028199E040029C444 /* MessageKit */; };
+		D14B401328199EE40029C444 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14B401228199EE40029C444 /* ChatViewController.swift */; };
+		D14B40152819A37C0029C444 /* AnswerToQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14B40142819A37C0029C444 /* AnswerToQuestionViewController.swift */; };
+		D14B401C2819A4390029C444 /* FileCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14B401B2819A4390029C444 /* FileCellView.swift */; };
+		D14B401E2819A4420029C444 /* FileCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14B401D2819A4420029C444 /* FileCellView.xib */; };
+		D14B40242819A4670029C444 /* MessageCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14B40232819A4670029C444 /* MessageCellView.swift */; };
+		D14B40262819A46F0029C444 /* MessageCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14B40252819A46F0029C444 /* MessageCellView.xib */; };
+		D169FB9A283658080070FD56 /* StudentExamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169FB99283658080070FD56 /* StudentExamModel.swift */; };
+		D169FB9D283674AC0070FD56 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D169FB9C283674AC0070FD56 /* Moya */; };
+		D169FB9F283674AC0070FD56 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = D169FB9E283674AC0070FD56 /* RxMoya */; };
+		D169FBA3283685E10070FD56 /* ExamsAPITarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169FBA2283685E10070FD56 /* ExamsAPITarget.swift */; };
+		D194B1F22816D2C900D3CAED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194B1F12816D2C900D3CAED /* AppDelegate.swift */; };
+		D194B1F42816D2C900D3CAED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194B1F32816D2C900D3CAED /* SceneDelegate.swift */; };
+		D194B1F62816D2C900D3CAED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194B1F52816D2C900D3CAED /* ViewController.swift */; };
+		D194B1FB2816D2CD00D3CAED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D194B1FA2816D2CD00D3CAED /* Assets.xcassets */; };
+		D194B1FE2816D2CD00D3CAED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D194B1FC2816D2CD00D3CAED /* LaunchScreen.storyboard */; };
+		D194B20D2816D80200D3CAED /* SignUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D194B20C2816D80200D3CAED /* SignUpView.xib */; };
+		D194B20F2816D81200D3CAED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194B20E2816D81200D3CAED /* LoginViewController.swift */; };
+		D194B2112817B0F000D3CAED /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194B2102817B0F000D3CAED /* SignUpViewController.swift */; };
+		D194B2132817C9BA00D3CAED /* MainScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D194B2122817C9BA00D3CAED /* MainScreenView.xib */; };
+		D1B31AC5283608AD0007E4AA /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B31AC4283608AD0007E4AA /* LoginView.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D112D47B2819B66B00FF34BC /* ExaminationTicketViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExaminationTicketViewCell.swift; sourceTree = "<group>"; };
+		D140AD15283B4D0C00417416 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		D140AD17283B4E1D00417416 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		D14B3FF82818F4240029C444 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		D14B3FFC2818F5650029C444 /* ExamViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExamViewCell.xib; sourceTree = "<group>"; };
+		D14B3FFE2818F6A10029C444 /* ExamViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamViewCell.swift; sourceTree = "<group>"; };
+		D14B40042819591F0029C444 /* ExaminationTicketView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExaminationTicketView.xib; sourceTree = "<group>"; };
+		D14B40062819593F0029C444 /* ExaminationTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExaminationTicket.swift; sourceTree = "<group>"; };
+		D14B400828195C1C0029C444 /* ExaminationTicketViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExaminationTicketViewCell.xib; sourceTree = "<group>"; };
+		D14B400A281979170029C444 /* AssessmentStatus.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssessmentStatus.xib; sourceTree = "<group>"; };
+		D14B400D2819981B0029C444 /* AnswerToQuestionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnswerToQuestionView.xib; sourceTree = "<group>"; };
+		D14B401228199EE40029C444 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		D14B40142819A37C0029C444 /* AnswerToQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerToQuestionViewController.swift; sourceTree = "<group>"; };
+		D14B401B2819A4390029C444 /* FileCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCellView.swift; sourceTree = "<group>"; };
+		D14B401D2819A4420029C444 /* FileCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FileCellView.xib; sourceTree = "<group>"; };
+		D14B40232819A4670029C444 /* MessageCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCellView.swift; sourceTree = "<group>"; };
+		D14B40252819A46F0029C444 /* MessageCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCellView.xib; sourceTree = "<group>"; };
+		D169FB99283658080070FD56 /* StudentExamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentExamModel.swift; sourceTree = "<group>"; };
+		D169FBA2283685E10070FD56 /* ExamsAPITarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamsAPITarget.swift; sourceTree = "<group>"; };
+		D194B1EE2816D2C900D3CAED /* RemoteExaminationNEW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteExaminationNEW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D194B1F12816D2C900D3CAED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D194B1F32816D2C900D3CAED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D194B1F52816D2C900D3CAED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D194B1FA2816D2CD00D3CAED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D194B1FD2816D2CD00D3CAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D194B1FF2816D2CD00D3CAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D194B20C2816D80200D3CAED /* SignUpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpView.xib; sourceTree = "<group>"; };
+		D194B20E2816D81200D3CAED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D194B2102817B0F000D3CAED /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D194B2122817C9BA00D3CAED /* MainScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainScreenView.xib; sourceTree = "<group>"; };
+		D1B31AC4283608AD0007E4AA /* LoginView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D194B1EB2816D2C900D3CAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D169FB9F283674AC0070FD56 /* RxMoya in Frameworks */,
+				D169FB9D283674AC0070FD56 /* Moya in Frameworks */,
+				D14B401128199E040029C444 /* MessageKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D140AD14283B4CF500417416 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				D140AD15283B4D0C00417416 /* UIViewControllerExt.swift */,
+				D140AD17283B4E1D00417416 /* StringExt.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		D14B400C281981830029C444 /* User Story */ = {
+			isa = PBXGroup;
+			children = (
+				D14B40162819A39C0029C444 /* AnswersToQuestion */,
+				D14B3FFC2818F5650029C444 /* ExamViewCell.xib */,
+				D14B3FFE2818F6A10029C444 /* ExamViewCell.swift */,
+				D14B40042819591F0029C444 /* ExaminationTicketView.xib */,
+				D14B400828195C1C0029C444 /* ExaminationTicketViewCell.xib */,
+				D112D47B2819B66B00FF34BC /* ExaminationTicketViewCell.swift */,
+				D14B400A281979170029C444 /* AssessmentStatus.xib */,
+			);
+			path = "User Story";
+			sourceTree = "<group>";
+		};
+		D14B40162819A39C0029C444 /* AnswersToQuestion */ = {
+			isa = PBXGroup;
+			children = (
+				D14B40172819A3BB0029C444 /* Cells */,
+				D14B400D2819981B0029C444 /* AnswerToQuestionView.xib */,
+			);
+			path = AnswersToQuestion;
+			sourceTree = "<group>";
+		};
+		D14B40172819A3BB0029C444 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D14B401A2819A4220029C444 /* FileCell */,
+				D14B40182819A3FB0029C444 /* MessageCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D14B40182819A3FB0029C444 /* MessageCell */ = {
+			isa = PBXGroup;
+			children = (
+				D14B40232819A4670029C444 /* MessageCellView.swift */,
+				D14B40252819A46F0029C444 /* MessageCellView.xib */,
+			);
+			path = MessageCell;
+			sourceTree = "<group>";
+		};
+		D14B401A2819A4220029C444 /* FileCell */ = {
+			isa = PBXGroup;
+			children = (
+				D14B401B2819A4390029C444 /* FileCellView.swift */,
+				D14B401D2819A4420029C444 /* FileCellView.xib */,
+			);
+			path = FileCell;
+			sourceTree = "<group>";
+		};
+		D169FBA028367E770070FD56 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D169FBA1283685BB0070FD56 /* ExamsAPI */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D169FBA1283685BB0070FD56 /* ExamsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				D169FBA2283685E10070FD56 /* ExamsAPITarget.swift */,
+			);
+			path = ExamsAPI;
+			sourceTree = "<group>";
+		};
+		D194B1E52816D2C900D3CAED = {
+			isa = PBXGroup;
+			children = (
+				D194B1F02816D2C900D3CAED /* RemoteExaminationNEW */,
+				D194B1EF2816D2C900D3CAED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D194B1EF2816D2C900D3CAED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D194B1EE2816D2C900D3CAED /* RemoteExaminationNEW.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D194B1F02816D2C900D3CAED /* RemoteExaminationNEW */ = {
+			isa = PBXGroup;
+			children = (
+				D140AD14283B4CF500417416 /* Extentions */,
+				D169FBA028367E770070FD56 /* Network */,
+				D1FB6C12282E500C0006EFD8 /* Validator */,
+				D194B2052816D6B000D3CAED /* Models */,
+				D194B2072816D6C800D3CAED /* ViewControllers */,
+				D194B2062816D6B800D3CAED /* Views */,
+				D194B1F12816D2C900D3CAED /* AppDelegate.swift */,
+				D194B1F32816D2C900D3CAED /* SceneDelegate.swift */,
+				D194B1F52816D2C900D3CAED /* ViewController.swift */,
+				D194B1FA2816D2CD00D3CAED /* Assets.xcassets */,
+				D194B1FC2816D2CD00D3CAED /* LaunchScreen.storyboard */,
+				D194B1FF2816D2CD00D3CAED /* Info.plist */,
+			);
+			path = RemoteExaminationNEW;
+			sourceTree = "<group>";
+		};
+		D194B2052816D6B000D3CAED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D169FB99283658080070FD56 /* StudentExamModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D194B2062816D6B800D3CAED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1B31AC4283608AD0007E4AA /* LoginView.storyboard */,
+				D14B400C281981830029C444 /* User Story */,
+				D194B20C2816D80200D3CAED /* SignUpView.xib */,
+				D194B2122817C9BA00D3CAED /* MainScreenView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D194B2072816D6C800D3CAED /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D194B20E2816D81200D3CAED /* LoginViewController.swift */,
+				D194B2102817B0F000D3CAED /* SignUpViewController.swift */,
+				D14B3FF82818F4240029C444 /* MainScreenViewController.swift */,
+				D14B40062819593F0029C444 /* ExaminationTicket.swift */,
+				D14B401228199EE40029C444 /* ChatViewController.swift */,
+				D14B40142819A37C0029C444 /* AnswerToQuestionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D1FB6C12282E500C0006EFD8 /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Validator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D194B1ED2816D2C900D3CAED /* RemoteExaminationNEW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D194B2022816D2CD00D3CAED /* Build configuration list for PBXNativeTarget "RemoteExaminationNEW" */;
+			buildPhases = (
+				D194B1EA2816D2C900D3CAED /* Sources */,
+				D194B1EB2816D2C900D3CAED /* Frameworks */,
+				D194B1EC2816D2C900D3CAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteExaminationNEW;
+			packageProductDependencies = (
+				D14B401028199E040029C444 /* MessageKit */,
+				D169FB9C283674AC0070FD56 /* Moya */,
+				D169FB9E283674AC0070FD56 /* RxMoya */,
+			);
+			productName = RemoteExaminationNEW;
+			productReference = D194B1EE2816D2C900D3CAED /* RemoteExaminationNEW.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D194B1E62816D2C900D3CAED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					D194B1ED2816D2C900D3CAED = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = D194B1E92816D2C900D3CAED /* Build configuration list for PBXProject "RemoteExaminationNEW" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D194B1E52816D2C900D3CAED;
+			packageReferences = (
+				D14B400F28199E030029C444 /* XCRemoteSwiftPackageReference "MessageKit" */,
+				D169FB9B283674AC0070FD56 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
+			productRefGroup = D194B1EF2816D2C900D3CAED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D194B1ED2816D2C900D3CAED /* RemoteExaminationNEW */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D194B1EC2816D2C900D3CAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B31AC5283608AD0007E4AA /* LoginView.storyboard in Resources */,
+				D14B40052819591F0029C444 /* ExaminationTicketView.xib in Resources */,
+				D14B400E2819981B0029C444 /* AnswerToQuestionView.xib in Resources */,
+				D194B1FE2816D2CD00D3CAED /* LaunchScreen.storyboard in Resources */,
+				D14B400928195C1C0029C444 /* ExaminationTicketViewCell.xib in Resources */,
+				D14B40262819A46F0029C444 /* MessageCellView.xib in Resources */,
+				D14B3FFD2818F5650029C444 /* ExamViewCell.xib in Resources */,
+				D194B1FB2816D2CD00D3CAED /* Assets.xcassets in Resources */,
+				D14B400B281979170029C444 /* AssessmentStatus.xib in Resources */,
+				D194B20D2816D80200D3CAED /* SignUpView.xib in Resources */,
+				D194B2132817C9BA00D3CAED /* MainScreenView.xib in Resources */,
+				D14B401E2819A4420029C444 /* FileCellView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D194B1EA2816D2C900D3CAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D194B20F2816D81200D3CAED /* LoginViewController.swift in Sources */,
+				D169FBA3283685E10070FD56 /* ExamsAPITarget.swift in Sources */,
+				D140AD16283B4D0C00417416 /* UIViewControllerExt.swift in Sources */,
+				D14B401C2819A4390029C444 /* FileCellView.swift in Sources */,
+				D112D47C2819B66B00FF34BC /* ExaminationTicketViewCell.swift in Sources */,
+				D194B1F62816D2C900D3CAED /* ViewController.swift in Sources */,
+				D169FB9A283658080070FD56 /* StudentExamModel.swift in Sources */,
+				D194B1F22816D2C900D3CAED /* AppDelegate.swift in Sources */,
+				D14B40072819593F0029C444 /* ExaminationTicket.swift in Sources */,
+				D14B3FFF2818F6A10029C444 /* ExamViewCell.swift in Sources */,
+				D140AD18283B4E1D00417416 /* StringExt.swift in Sources */,
+				D194B1F42816D2C900D3CAED /* SceneDelegate.swift in Sources */,
+				D14B40242819A4670029C444 /* MessageCellView.swift in Sources */,
+				D194B2112817B0F000D3CAED /* SignUpViewController.swift in Sources */,
+				D14B40152819A37C0029C444 /* AnswerToQuestionViewController.swift in Sources */,
+				D14B401328199EE40029C444 /* ChatViewController.swift in Sources */,
+				D14B3FF92818F4240029C444 /* MainScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D194B1FC2816D2CD00D3CAED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D194B1FD2816D2CD00D3CAED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D194B2002816D2CD00D3CAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D194B2012816D2CD00D3CAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D194B2032816D2CD00D3CAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MCBFGUJXMJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemoteExaminationNEW/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LoginView;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AnnCorp.RemoteExaminationNEW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D194B2042816D2CD00D3CAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MCBFGUJXMJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemoteExaminationNEW/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LoginView;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AnnCorp.RemoteExaminationNEW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D194B1E92816D2C900D3CAED /* Build configuration list for PBXProject "RemoteExaminationNEW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D194B2002816D2CD00D3CAED /* Debug */,
+				D194B2012816D2CD00D3CAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D194B2022816D2CD00D3CAED /* Build configuration list for PBXNativeTarget "RemoteExaminationNEW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D194B2032816D2CD00D3CAED /* Debug */,
+				D194B2042816D2CD00D3CAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D14B400F28199E030029C444 /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		D169FB9B283674AC0070FD56 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D14B401028199E040029C444 /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D14B400F28199E030029C444 /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+		D169FB9C283674AC0070FD56 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D169FB9B283674AC0070FD56 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		D169FB9E283674AC0070FD56 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D169FB9B283674AC0070FD56 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D194B1E62816D2C900D3CAED /* Project object */;
+}
