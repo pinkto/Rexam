@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>625004430169-sur8r2k83i6gq639sdmvj1md46nhvqcp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.625004430169-sur8r2k83i6gq639sdmvj1md46nhvqcp</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>625004430169-j44mfoeo3bb3f2l9h3k211qgm6u519rp.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDEJqD8kr0l6dC8xBzyyR2ZAR6neuzl8fc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>625004430169</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.AnnCorp.RemoteExaminationNEW</string>
+	<key>PROJECT_ID</key>
+	<string>stud-exam</string>
+	<key>STORAGE_BUCKET</key>
+	<string>stud-exam.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:625004430169:ios:a2f352eb3eb692a6910248</string>
+</dict>
+</plist>
